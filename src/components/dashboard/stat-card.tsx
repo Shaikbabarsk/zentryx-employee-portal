@@ -1,0 +1,2 @@
+import type { LucideIcon } from "lucide-react";
+export default function StatCard({ title, value, detail, icon: Icon }: { title: string; value: string; detail: string; icon: LucideIcon }) { return <section className="rounded-2xl border border-slate-200 bg-white p-5"><Icon size={22} className="text-blue-700"/><p className="mt-4 text-sm text-slate-500">{title}</p><p className="mt-1 text-2xl font-bold">{value}</p><p className="mt-2 text-xs text-slate-500">{detail}</p></section>; }
